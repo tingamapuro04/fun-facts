@@ -4,6 +4,33 @@
   padding: 0;
 }
 
+.App {
+  margin: 4% 10%;
+}
+
 .Nav {
-  
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  box-shadow: 1px 2.5px 1px 2.5px rgb(159, 158, 158);
+  margin: 1%;
+}
+
+.Icon {
+  display: flex;
+  width: 50%;
+  align-items: center;
+}
+
+.toggle {
+  display: flex;
+  width: 50%;
+  gap: 5%;
+  justify-content: center;
+  align-items: center;
+}
+
+.img {
+  height: 50px;
+  margin-left: 10%;
 }
